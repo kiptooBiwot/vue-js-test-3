@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- {{ job }} -->
     <div class="my-[35px]">
       <div
         class="w-[830px] h-[234px] relative border border-[#8A8A8A] rounded-md py-[21px] px-[29px]"
@@ -238,7 +237,6 @@
               class="flex justify-between items-center"
               @click="disabled = !disabled"
             >
-              <!-- <h2>Toggle me</h2> -->
               <div
                 class="w-[60px] h-[30px] rounded-[20px] flex items-center bg-[#787777] p-1 duration-300 ease-in-out"
                 :class="{ 'bg-[#8477FA]': disabled }"

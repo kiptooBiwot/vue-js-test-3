@@ -2,10 +2,7 @@
   <div class="mx-6">
     <Header />
     <Search />
-    <!-- <div v-for="(card, index) in 6" :key="index"> -->
-    <!-- Pass the job data to the cards -->
     <Card v-for="job in jobs" :key="job.uuid" :job="job" />
-    <!-- </div> -->
   </div>
 </template>
 

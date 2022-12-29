@@ -17,15 +17,4 @@
   .btn-primary {
     @apply bg-[#8477FA] rounded-[10px] py-4 px-7 text-white capitalize text-xs
   }
-
-  .toggle-checkbox:checked {
-    @apply: right-0 border-[#8477FA];
-    right: 0;
-    border-color: #8477FA;
-  }
-
-  .toggle-checkbox:checked+.toggle-label {
-    @apply: bg-[#8477FA];
-    background-color: #8477FA;
-  }
 }
